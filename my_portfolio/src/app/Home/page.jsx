@@ -1,11 +1,11 @@
 import React from 'react'
-
-const About = () => {
+import styles from "./page.module.css"
+const page = () => {
   return (
-    <div>
-      
+    <div className={styles.home}>
+      Home
     </div>
   )
 }
 
-export default About
+export default page

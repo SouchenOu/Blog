@@ -8,7 +8,7 @@ import Link from 'next/link'
 const links =[
     {
         id: 1,
-        title:"home",
+        title:"Home",
         url: "/",
     },
     {
@@ -42,10 +42,12 @@ const navbar = () => {
     <div>
       <Link href="/">souchen</Link>
       <div>
-      {links.map(function(elem){
-        return <Link key={elem.id} href={elem.url}>{elem.title}</Link>
-      })}
+        {links.map(function(elem){
+          return <Link key={elem.id} href={elem.url}>{elem.title}</Link>
+        })}
+        <button>Logout</button>
       </div>
+      
     </div>
   )
 }
