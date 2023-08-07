@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
+import styles from "./navbar.module.css"
 
 
 // This is an array
@@ -39,13 +40,13 @@ const links =[
 ];
 const navbar = () => {
   return (
-    <div>
-      <Link href="/">souchen</Link>
-      <div>
+    <div className={styles.container}>
+      <Link className={styles.logo} href="/">souchen</Link>
+      <div className={styles.links}>
         {links.map(function(elem){
-          return <Link key={elem.id} href={elem.url}>{elem.title}</Link>
+          return <Link className={styles.link} key={elem.id} href={elem.url}>{elem.title}</Link>
         })}
-        <button>Logout</button>
+        <button className={styles.logout}>Logout</button>
       </div>
       
     </div>
