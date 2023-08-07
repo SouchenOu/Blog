@@ -17,3 +17,25 @@
   object-fit: cover;
 
 }
+
+.title{
+  font-size: 72px;
+  background: linear-gradient(to bottom, #194c33,#bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.desc{
+  font-size: 24px;
+  font-weight: 300;
+}
+.btn{
+  padding: 20px;
+  cursor: pointer;
+  background-color: #5d766a;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+
+}
