@@ -25,7 +25,7 @@ const links =[
     {
         id:4,
         title:"About",
-        url:"/about"
+        url:"/About"
     },
     {
         id:5,

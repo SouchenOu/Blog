@@ -30,6 +30,9 @@ intractive website it might be really annoying basically chossing SSR and CSR de
 
 That is why next-js is greate because you can combine server side and client side components and build a complete application 
 
+NextJs images
+--------------
 
+To add an image we are not going to be useing image HTML <img /> , it will display a warning  we will use <Image />
 
 

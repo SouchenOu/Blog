@@ -3,4 +3,16 @@
     height: 50px;
     align-items: center;
     justify-content: space-between;
+    font-size: 10px;
+}
+.imgContainer
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    cursor: pointer;
+    opacity:0.6 ;
 }
