@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import profile from "public/1.png"
+import profile from "public/img2.jpeg"
 import styles from "./page.module.css"
 
 export default function Home() {
