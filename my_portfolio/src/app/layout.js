@@ -4,8 +4,8 @@ import Footer from '../components/footer/footer'
 
 
 export const metadata = {
-  title: 'Souchen',
-  description: 'Portfolio',
+  title: 'StartNow',
+  description: 'Startup',
 };
 
 export default function RootLayout({ children }) {

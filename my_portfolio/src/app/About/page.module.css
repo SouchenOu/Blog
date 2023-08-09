@@ -1,3 +1,36 @@
-.about {
-    background-color: brown;
+
+ .imgContainer
+{
+     position: relative; 
+} 
+ .img{
+    margin: 20px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+.txtImg{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgb(66, 86, 80);
+    padding: 5px;
+    color: aliceblue;
+} 
+
+.textContainer{
+    display: flex;
+    gap: 100px;
+}
+.item{
+    flex: 1;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.desc{
+    font-size: 18px;
+    font-weight: 300px;
+    text-align: justify;
 }

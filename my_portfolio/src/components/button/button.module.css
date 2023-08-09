@@ -1,0 +1,9 @@
+.Container {
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgb(73, 105, 94);
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    color: white;
+}
