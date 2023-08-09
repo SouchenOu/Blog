@@ -1,3 +1,49 @@
-.portfolio{
-    background-color: aqua;
+.works
+{
+    font-size: 100px;
+}
+
+.FirstTitle
+{
+    margin: 20px 0px;
+}
+
+.items{
+    display: flex;
+    gap: 10px;
+}
+.link1{
+    border: 5px solid #bbb;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-size: cover !important;
+    color: rgb(38, 62, 38);
+}
+
+.link1:nth-child(1)
+{
+    background: url('./illustration.jpg');
+}
+
+.link1:nth-child(2)
+{
+    background: url('./websites.jpeg');
+}
+
+.link1:nth-child(3)
+{
+    background: url('./app.jpeg');
+}
+.title
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.link1:hover .title{
+    color: rgb(60, 113, 60);
 }
