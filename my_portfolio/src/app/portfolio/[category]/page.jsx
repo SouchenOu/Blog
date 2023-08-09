@@ -2,7 +2,9 @@ import React from 'react'
 import styles from "./page.module.css"
 import Image from "next/image" 
 import Button from "../../../components/button/Button"
-import img from "../ill.jpeg"
+import img1 from "../ill.jpeg"
+import img2 from "../po.jpeg"
+import img3 from "../lk.jpeg"
 const Category = ({params}) => {
   return (
     <div className={styles.container}>
@@ -14,7 +16,7 @@ const Category = ({params}) => {
             <Button text="See more" url="#"/>
           </div>
           <div className={styles.imgcontainer}>
-            <Image className={styles.img} src={img} />
+            <Image className={styles.img} src={img1} />
           </div>
       </div>
       <div className={styles.item}>
@@ -24,7 +26,7 @@ const Category = ({params}) => {
             <Button text="See more" url="#"/>
           </div>
           <div className={styles.imgcontainer}>
-            <Image className={styles.img} src={img} />
+            <Image className={styles.img} src={img2} />
           </div>
       </div>
       <div className={styles.item}>
@@ -34,7 +36,7 @@ const Category = ({params}) => {
             <Button text="See more" url="#"/>
           </div>
           <div className={styles.imgcontainer}>
-            <Image className={styles.img} src={img} />
+            <Image className={styles.img} src={img3} />
           </div>
       </div>
     </div>
