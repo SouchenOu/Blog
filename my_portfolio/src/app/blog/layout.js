@@ -5,7 +5,7 @@ import styles from "./page.module.css"
 const layout = ({children}) => {
   return (
     <div>
-        <h1 className={styles.title}>Hi this is Blog layout</h1>
+        <h1 className={styles.BigTitle}>Hi this is Blog layout</h1>
       {children} 
     </div>
   )

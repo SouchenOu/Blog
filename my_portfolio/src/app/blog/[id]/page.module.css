@@ -1,0 +1,34 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 500px;
+
+}
+.img2{
+    width: 20px;
+    height: 20px;
+}
+
+.FirstText{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.top{
+    display: flex;
+    gap: 300px;
+}
+.img1{
+    width:500px;
+    height: 300px;
+}
+.Post{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.BigTitle
+{
+    color: blueviolet;
+}

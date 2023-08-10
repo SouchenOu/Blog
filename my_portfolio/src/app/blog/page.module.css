@@ -11,3 +11,10 @@
     gap: 30px;
     
 }
+
+.BigTitle
+{
+    color: rgb(40, 96, 40);
+    text-align: center;
+    padding: 50px;
+}
