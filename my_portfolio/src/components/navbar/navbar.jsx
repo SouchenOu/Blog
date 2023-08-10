@@ -3,6 +3,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from "./navbar.module.css"
+import DarkMode from "../DarkMode/DarkMode"
 
 
 // This is an array
@@ -42,10 +43,13 @@ const navbar = () => {
   return (
     <div className={styles.container}>
       <Link className={styles.logo} href="/">StartNow</Link>
+      
       <div className={styles.links}>
         {links.map(function(elem){
           return <Link className={styles.link} key={elem.id} href={elem.url}>{elem.title}</Link>
+          
         })}
+        <DarkMode />
         <button className={styles.logout}>Logout</button>
       </div>
       
