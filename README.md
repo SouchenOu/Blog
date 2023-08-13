@@ -36,3 +36,9 @@ NextJs images
 To add an image we are not going to be useing image HTML <img /> , it will display a warning  we will use <Image />
 
 
+NextJs Fetching 
+---------------
+
+
+Fetching Data Where It's Needed
+If you need to use the same data (e.g. current user) in multiple components in a tree, you do not have to fetch data globally, nor forward props between components. Instead, you can use fetch or React cache in the component that needs the data without worrying about the performance implications of making multiple requests for the same data.
