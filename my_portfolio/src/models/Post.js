@@ -1,6 +1,8 @@
 import mongoose from "mongoose"
 
-const PostSchema = new Schema (
+const { Schema } = mongoose;
+
+const postSchema = new Schema (
 {
     title: {
         type: String,
@@ -28,7 +30,7 @@ const PostSchema = new Schema (
 );
 
 
-// create a user collection in our database
+// create a post collection in our database
 
 
-export default mongoose.model("Post", PostSchema);
+export default mongoose.model("Post", postSchema);
