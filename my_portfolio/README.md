@@ -49,6 +49,17 @@ But in Next.js, things are different. We don’t have to rely on external librar
 
 This is the main reason why a Next.js app is different from a traditional React app.
 
+AuthJS
+-------
+
+Authentication verifies who a user is, while authorization controls what a user can access. Next.js supports multiple authentication patterns, each designed for different use cases. This page will go through each case so that you can choose based on your constraints.
+
+/api/auth/signing
+/api/auth/signout
+/api/auth/session
+
+we dont have to create all this folders, all of that will handle using AuthJS
+
 
 Some informations:
 ------------------

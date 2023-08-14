@@ -2,6 +2,8 @@ import './globals.css'
 import Navbar from '../components/navbar/navbar'
 import Footer from '../components/footer/footer'
 import {ThemeProvider} from "../../context/Themecontext"
+import AuthProvider from "../components/AuthProvider/AuthProvider"
+
 
 export const metadata = {
   title: 'StartNow',
@@ -13,6 +15,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
       <ThemeProvider>
+        <AuthProvider>
+
         <div className='container'>
           
             <Navbar />
@@ -20,6 +24,7 @@ export default function RootLayout({ children }) {
             <Footer />
           
         </div>
+        </AuthProvider>
         </ThemeProvider>
         
       </body>
