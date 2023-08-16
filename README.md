@@ -53,6 +53,13 @@ If you need to use the same data (e.g. current user) in multiple components in a
 
 <img width="1303" alt="Screen Shot 2023-08-14 at 1 43 14 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/ec573121-93fd-4e7c-a3d3-9fcbc2c50b9b">
 
+<img width="2400" alt="Screen Shot 2023-08-16 at 8 12 56 AM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/95075613-ef5b-4241-a0a6-7e0394f970e1">
+
+<img width="2400" alt="Screen Shot 2023-08-16 at 8 13 07 AM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/1a4445ff-f9d2-4092-b3cc-28c03803468d">
+
+
+<img width="2400" alt="Screen Shot 2023-08-16 at 8 13 17 AM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/a1ed816b-cc3c-4aa0-b2ab-4604e088e525">
+
 
 <img width="1235" alt="Screen Shot 2023-08-14 at 4 02 30 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/10d64d50-b6e5-4897-9f60-d73cef1d39eb">
 
