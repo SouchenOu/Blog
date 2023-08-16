@@ -97,6 +97,21 @@ fetch("https://reqres.in/api/users", {
 
 <img width="2400" alt="Screen Shot 2023-08-16 at 8 13 17 AM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/a1ed816b-cc3c-4aa0-b2ab-4604e088e525">
 
+<img width="2349" alt="Screen Shot 2023-08-16 at 1 56 28 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/dd40940f-a911-4d05-98cf-3aca04ce89ac">
+
+<img width="655" alt="Screen Shot 2023-08-16 at 12 04 09 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/9f804ce2-377b-464b-a970-e8b687fcb7b2">
+
+<img width="655" alt="Screen Shot 2023-08-16 at 1 55 49 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/25693a89-9751-4e99-aad0-8ced4f6c67b4">
+
+
+<img width="2349" alt="Screen Shot 2023-08-16 at 1 56 00 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/351d7158-70f7-4617-be34-46e400f61a4b">
+
+<img width="2349" alt="Screen Shot 2023-08-16 at 1 56 14 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/4ce8fdb7-3ab9-4809-84ab-6937fbd89f14">
+
+
+
+
+
 
 <img width="1235" alt="Screen Shot 2023-08-14 at 4 02 30 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/10d64d50-b6e5-4897-9f60-d73cef1d39eb">
 
