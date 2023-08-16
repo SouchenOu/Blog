@@ -42,3 +42,19 @@ NextJs Fetching
 
 Fetching Data Where It's Needed
 If you need to use the same data (e.g. current user) in multiple components in a tree, you do not have to fetch data globally, nor forward props between components. Instead, you can use fetch or React cache in the component that needs the data without worrying about the performance implications of making multiple requests for the same data.
+
+
+
+<img width="1303" alt="Screen Shot 2023-08-14 at 1 42 55 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/32cba704-3114-4825-b2bf-216d526e17d1">
+
+
+<img width="1303" alt="Screen Shot 2023-08-14 at 1 43 03 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/9f73680e-a602-4ad2-8837-bee05fd2ceb0">
+
+
+<img width="1303" alt="Screen Shot 2023-08-14 at 1 43 14 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/ec573121-93fd-4e7c-a3d3-9fcbc2c50b9b">
+
+
+<img width="1235" alt="Screen Shot 2023-08-14 at 4 02 30 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/10d64d50-b6e5-4897-9f60-d73cef1d39eb">
+
+
+
