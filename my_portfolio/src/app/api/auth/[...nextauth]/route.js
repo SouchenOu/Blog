@@ -3,6 +3,7 @@ import GoogleProvider from "next-auth/providers/google"
 
 const handler =  NextAuth({
   providers: [
+    // we add here any authentificaion provider (github , google...)
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,

@@ -8,14 +8,27 @@ import connect from "../../../utils/db"
 //     return new NextResponse("It works", { status: 200 });
 // }
 
-export const GET = async () => {
+// export const GET = async () => {
+//     try {
+//         await connect();
+
+//         const posts = await Post.find();
+//         return new NextResponse(posts, {status : 200});
+//     }catch(err)
+//     {
+//         return new NextResponse("Database Error", {status : 500});
+//     }
+// };
+
+export const GET = async (request, {params}) => {
+    const { id } = params;
+
     try {
         await connect();
+        const post = await Post.findById(id);
 
-        const posts = await Post.find();
-        return new NextResponse(posts, {status : 200});
-    }catch(err)
-    {
-        return new NextResponse("Database Error", {status : 500});
+        return new NextResponse(JSON.stringify(post), {status: 200});
+    }catch(err) {
+        return new NextResponse("Database Error", {status:500});
     }
-};
+} 
