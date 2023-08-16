@@ -99,7 +99,7 @@ fetch("https://reqres.in/api/users", {
 
 <img width="2349" alt="Screen Shot 2023-08-16 at 1 56 28 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/dd40940f-a911-4d05-98cf-3aca04ce89ac">
 
-<img width="655" alt="Screen Shot 2023-08-16 at 12 04 09 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/9f804ce2-377b-464b-a970-e8b687fcb7b2">
+
 
 
 
