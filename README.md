@@ -43,6 +43,43 @@ NextJs Fetching
 Fetching Data Where It's Needed
 If you need to use the same data (e.g. current user) in multiple components in a tree, you do not have to fetch data globally, nor forward props between components. Instead, you can use fetch or React cache in the component that needs the data without worrying about the performance implications of making multiple requests for the same data.
 
+Promise (then() and catch()) ---> (Async() and await)
+------------------------------------------------------
+
+What is javascript promises ? why we need them ? How to use the special then() and catch()methods and then how to convert the same code to using async() and await()
+
+
+The promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value
+
+
+
+use the fetch API built into the browser in order to make asynchronous request to different network ressources by using GET, POST , PUT or whatever it is that you want to use 
+
+
+Fetch is promise based which means that we can use async await or we can use .then() or .catch()
+
+
+--> you want to do more tha Get data from the server (you want to post , update and delete data so in order to do that you are going to need to use the options section of the fetch method   )
+
+fetch("https://reqres.in/api/users", {
+    method: POST (choose the HTTP method),
+    (we need to pass the data for that user and that is going to go inside of the body  )
+
+    --> To save our user we should (send it JSON) so add JSON.stringify and we should add headers
+    headers : {
+        'Content-Type' : 'application/json'
+    }
+    body: JSON.stringify({
+        name : 'User 1'
+    })
+}).then(res => {
+    return res.JSON();
+})
+.then(data => console.log(data))
+.catch(error => console.log(Error'))
+
+---> so we have to convert javaScript data to JSON string
+
 
 
 <img width="1303" alt="Screen Shot 2023-08-14 at 1 42 55 PM" src="https://github.com/SouchenOu/Next-js-fullcourse/assets/87101785/32cba704-3114-4825-b2bf-216d526e17d1">

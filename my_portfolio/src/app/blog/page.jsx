@@ -9,6 +9,7 @@ import img1 from "./bl1.jpeg"
 /// Fetching data ---> server side**********************
 async function getData()
 {
+    //should wait until fetch finishing bring data
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     if(!res.ok){
         //This will activate te closest ''error.js Boundary
