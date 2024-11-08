@@ -10,7 +10,7 @@ const Contact = () => {
        <h1 className={styles.title}> Contact us</h1>
        <div className={styles.content}>
           <div className={styles.imgContainer}>
-                <Image src={contact} className={styles.img}/>
+                <Image alt="" src={contact} className={styles.img}/>
           </div>
           <form className={styles.form}>
               <input type='text' placeholder='name' className={styles.input} />
